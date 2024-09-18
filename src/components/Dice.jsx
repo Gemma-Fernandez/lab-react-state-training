@@ -7,6 +7,8 @@ function Dice() {
 
 const[imgCubo, setImgCubo] = useState(imgVacia)
 const handleImgCubo= ()=>{
+    const randomImg= Math.floor(Math.random())
+    setImgCubo()
 
 }
 

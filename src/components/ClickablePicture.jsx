@@ -16,7 +16,8 @@ function ClickablePicture() {
         <img 
         src={imageMax} 
         alt="imagen persona" 
-        onClick={handleImage} />
+        onClick={handleImage} 
+        className="imagen-max"/>
 
     </div>
   )
